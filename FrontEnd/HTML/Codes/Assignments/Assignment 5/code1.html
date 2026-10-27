@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Job Application Portal</title>
+</head>
+<body>
+
+<h1>Online Job Application Portal</h1>
+<p>Apply for your dream job!</p>
+<hr>
+
+<form>
+
+
+<fieldset>
+<legend>1. Personal Information</legend>
+
+Full Name:
+<input type="text" placeholder="Enter your full name"><br><br>
+
+Create Password:
+<input type="password"><br><br>
+
+Email Address:
+<input type="email" placeholder="example@email.com"><br><br>
+
+Mobile Number:
+<input type="tel" placeholder="10-digit mobile number"><br><br>
+
+Age:
+<input type="number" min="1" max="100"><br><br>
+
+Date of Birth:
+<input type="date"><br><br>
+
+Gender:<br><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+<br><br>
+
+Current Address:<br>
+<textarea rows="5" cols="50"
+placeholder="Enter your address"></textarea><br><br>
+
+Profile Photograph:
+<input type="file" accept="image/*"><br><br>
+
+Portfolio Website:
+<input type="url" placeholder="https://example.com">
+
+</fieldset>
+
+<br>
+
+<!-- 2. Educational Background -->
+<fieldset>
+<legend>2. Educational Background</legend>
+
+Highest Qualification:
+<select>
+<option>-- Select Qualification --</option>
+<option>12th Pass</option>
+<option>Diploma</option>
+<option>Graduate</option>
+<option>Post Graduate</option>
+</select><br><br>
+
+College Name:
+<input type="text" placeholder="Enter college name"><br><br>
+
+Graduation Month:
+<input type="month"><br><br>
+
+Preferred Internship Week:
+<input type="week"><br><br>
+
+Graduation Year:
+<input type="number" min="2000" max="2100"><br><br>
+
+Certifications Completed:<br><br>
+<input type="checkbox"> Java
+<input type="checkbox"> Python
+<input type="checkbox"> Web Development
+<br><br>
+
+Preferred Interview Date:
+<input type="datetime-local">
+
+</fieldset>
+
+<br>
+
+<!-- 3. Job Preferences -->
+<fieldset>
+<legend>3. Job Preferences</legend>
+
+Search Job Role:
+<input type="search" placeholder="Search job positions"><br><br>
+
+Select Job Role:
+<select>
+<option>-- Select Job Role --</option>
+<option>Web Developer</option>
+<option>Software Developer</option>
+<option>UI/UX Designer</option>
+<option>Data Analyst</option>
+<option>Cloud Engineer</option>
+</select><br><br><br>
+
+Employment Type:<br><br>
+<input type="radio" name="employment"> Full Time
+<input type="radio" name="employment"> Part Time
+<input type="radio" name="employment"> Internship
+<br><br>
+
+Expected Monthly Salary (INR):
+<input type="number" min="0"><br><br>
+
+Preferred Interview Time:
+<input type="time"><br><br>
+
+Preferred Theme Color:
+<input type="color"><br><br>
+
+Coding Confidence (0-10):
+<input type="range" min="0" max="10" value="5"><br><br>
+
+LinkedIn Profile:
+<input type="url" placeholder="https://linkedin.com/in/user">
+
+</fieldset>
+
+<br>
+
+<!-- 4. Technical Skills and Experience -->
+<fieldset>
+<legend>4. Technical Skills and Experience</legend>
+
+Years of Experience:
+<input type="number" min="0" max="50" value="0"><br><br>
+
+Preferred Technology:
+<input type="text" list="technologies">
+
+<datalist id="technologies">
+<option value="HTML">
+<option value="CSS">
+<option value="JavaScript">
+<option value="Java">
+<option value="Python">
+</datalist>
+<br><br>
+
+Technical Skills:<br><br>
+<select multiple size="5">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>Java</option>
+<option>Python</option>
+<option>C++</option>
+<option>SQL</option>
+</select>
+
+<p>Use Ctrl (Windows) or Command (Mac)
+to select multiple skills.</p>
+
+Upload Resume (PDF only):
+<input type="file" accept=".pdf"><br><br>
+
+Upload Certificates:
+<input type="file" multiple><br><br>
+
+Why should we hire you?<br>
+<textarea rows="5" cols="55"
+placeholder="Describe your skills and strengths"></textarea>
+
+</fieldset>
+
+<br>
+
+<!-- 5. Skill Assessment and Application Status -->
+<fieldset>
+<legend>5. Skill Assessment and Application Status</legend>
+
+HTML Skill Level:<br><br>
+<meter min="0" max="100" value="60"></meter>
+<br><br>
+
+Application Completion:
+<progress max="100" value="80"></progress>
+<br><br>
+
+Application Status: Ready for submission
+<br><br>
+
+<input type="checkbox" required>
+I confirm that the information provided is correct.
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit Application">
+<input type="reset" value="Reset Form">
+<button type="button" onclick="alert('Please fill out the application form.')">Help</button>
+<button type="button" onclick="window.print()">Preview Application</button>
+
+</form>
+
+<hr>
+
+<!-- Additional Examples -->
+<h2>Additional Examples</h2>
+
+<fieldset>
+<legend>Search Available Jobs</legend>
+
+Job Title:
+<input type="search">
+<button type="button" onclick="alert('Searching for jobs...')">
+Search Jobs
+</button>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Read-only and Disabled Fields</legend>
+
+Application ID:
+<input type="text" value="JOB20261001" readonly>
+<br><br>
+
+Company:
+<input type="text" value="Example Company" disabled>
+<br><br>
+
+<button type="button" onclick="alert('Profile updated!')">
+Update Profile
+</button>
+
+</fieldset>
+
+<hr>
+
+<p>Online Job Application Portal</p>
+<p>HTML Forms Practice Assignment</p>
+
+</body>
+</html>
