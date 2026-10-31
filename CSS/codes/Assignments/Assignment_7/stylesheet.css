@@ -1,0 +1,53 @@
+.selection_one{
+    background-color: #6ED0F6;
+    width: 538px;
+    height: 248px;
+    border-radius: 16px;
+
+}
+h1{
+
+    font-family: Quicksand;
+    color: #0B1A82;
+    
+    text-align: center;  
+}
+.P1{
+     font-family: Quicksand;
+    text-align: center;
+}
+h3{
+    color: #037324;
+    font-family: Quicksand;
+    text-align: center;
+}
+h4{ 
+    font-size: 22px;
+    color: #037324;
+    font-family: Quicksand;
+}
+.Big{
+   letter-spacing: 2.6px;
+}
+.P2{
+    color: #58798E;
+    
+    font-size: 16px;
+    font-family: Montserrat;
+}
+li{
+    color: #8B1318;
+    font-family: Quicksand;
+}
+b{
+    color: #037324;
+}
+h5{
+    color: #8B1318;
+    font-family: Quicksand;
+    font-size: 16px;
+     text-align: center;
+}
+strong{
+    color: #0B1A82;
+}
